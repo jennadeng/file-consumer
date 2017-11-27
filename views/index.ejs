@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %> to read <%= fileName %></p>
+    <form method="get" action="/input">
+        <button type="submit">Read</button>
+    </form>
+    <form method="get" action="/stat">
+        <button type="submit">Get Stats</button>
+    </form>
+  </body>
+</html>
